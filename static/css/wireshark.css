@@ -1,0 +1,67 @@
+/*div.tableContainer
+{
+	clear: both;
+	height: 285px;
+	overflow: auto;
+	width: 756px;
+}
+
+div.tableContainer
+{
+	overflow: hidden;
+	width: 756px;
+}
+
+table#wiresharkTop thead tr
+{
+	
+}
+
+table#wiresharkTop thead
+{
+	display: block;
+	width: 100%;
+}
+
+table#wiresharkTop tbody
+{
+	display: block;
+	height: 300px;
+	overflow: auto;
+	width: 100%;
+}
+*/
+
+table#wiresharkTop
+{
+	border-collapse: collapse;
+}
+
+table#wiresharkTop th
+{
+	background: #D8D8D8;
+	border: 1px solid black;
+	text-align: left;
+	font-weight: normal;
+}
+
+td.packetNumber
+{
+	text-align: right;
+}
+
+td.packetLength
+{
+	text-align: right;
+}
+
+table#wiresharkTop tr
+{
+	background: #8CFF7F;
+	border-bottom: 1px solid white;
+}
+
+table#wiresharkTop tr.clicked
+{
+	background: #3D9AFC;
+}

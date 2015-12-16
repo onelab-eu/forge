@@ -1,0 +1,9 @@
+#questionnaire .table td:nth-child(n+2)
+{
+	text-align: center;
+}
+
+#questionnaire .table th:nth-child(n+2)
+{
+	text-align: center;
+}
